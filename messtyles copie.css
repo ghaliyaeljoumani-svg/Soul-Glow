@@ -1,0 +1,147 @@
+
+
+@media (max-width: 768px) {
+
+    /* General layout */
+    body {
+        padding: 0;
+        margin: 0;
+        background-color: #add8e6; /* Light blue */
+        font-size: 15px;
+    }
+
+    /* Header */
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .title-section h1 {
+        font-size: 28px;
+    }
+
+    .slogan {
+        font-size: 16px;
+    }
+
+    /* Navigation */
+    nav {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .dropdown {
+        position: static;
+        display: none;
+        width: 100%;
+        border-radius: 0;
+        box-shadow: none;
+        padding: 10px 0;
+        background: #fff8dc;
+    }
+
+    nav:hover .dropdown {
+        display: block;
+    }
+
+    .dropdown a {
+        padding: 12px 0;
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid #eee;
+    }
+
+    /* Auth button */
+    .auth-button {
+        width: 100%;
+        padding: 12px;
+        border-radius: 20px;
+        font-size: 16px;
+    }
+
+    /* Hero section */
+    .hero {
+        padding: 40px 15px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .hero h2 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .cta-button {
+        font-size: 16px;
+        padding: 12px 25px;
+        border-radius: 20px;
+    }
+
+    /* Products section */
+    .products {
+        padding: 40px 15px;
+    }
+
+    .products h3 {
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+
+    .product-grid {
+        display: grid;
+        grid-template-columns: 1fr; /* ONE COLUMN on mobile */
+        gap: 25px;
+    }
+
+    .product {
+        padding: 15px;
+    }
+
+    .product img {
+        height: 180px;
+    }
+
+    .product h4 {
+        font-size: 20px;
+    }
+
+    .product p {
+        font-size: 15px;
+    }
+
+    .product button {
+        padding: 10px 20px;
+        width: 100%;
+        border-radius: 20px;
+        font-size: 16px;
+    }
+
+    /* Testimonials */
+    .testimonials {
+        padding: 40px 15px;
+    }
+
+    .testimonials h3 {
+        font-size: 26px;
+    }
+
+    .testimonial {
+        font-size: 16px;
+        max-width: 90%;
+    }
+
+    /* Footer */
+    footer {
+        padding: 30px 10px;
+    }
+
+    footer a {
+        display: block;
+        margin: 8px 0;
+    }
+}
